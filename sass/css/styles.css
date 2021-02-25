@@ -112,3 +112,7 @@ h2 {
   padding: 32px; }
   .contactInfo iframe {
     width: 100%; }
+
+#spaceLetter {
+  line-height: 35px;
+}
