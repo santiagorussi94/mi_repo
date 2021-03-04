@@ -1,5 +1,3 @@
-
-
 @each $social in facebook, instagram, google, whatsapp {
 	.#{$social} {
 		background: url(../../img/socialicons/#{$social}.png) no-repeat;

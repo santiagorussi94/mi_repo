@@ -1,0 +1,20 @@
+.block__header {
+    background-color: $color-darkcream;
+}
+
+.block__main_content {
+    background-color: $color-cream;
+    padding: 25px 33px 0;
+}
+
+.block__footer {
+    border-bottom: 15px solid $color-green;
+}
+
+.block__menu > div {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: $color-white;
+}
