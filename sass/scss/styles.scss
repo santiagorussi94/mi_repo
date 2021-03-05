@@ -21,6 +21,7 @@ $card-border-width: 0;
 @import "night_mode";
 @import "layout";
 @import "ribbons";
+@import "toppings";
 
 body {
     font-family: "Acme", Helvetica, Arial, sans-serif;
@@ -29,12 +30,12 @@ body {
     background: url(../../img/bodybg.png) repeat;
 }
 
-#navigation .navbar-brand img {
-	max-width: 300px;
+.card .card-body .card-text {
+    min-height: 70px;
 }
 
-h2 {
-	margin-bottom: 30px;
+#navigation .navbar-brand img {
+	max-width: 300px;
 }
 
 .carousel .active, .carousel .next, .carousel .prev {
@@ -56,5 +57,17 @@ h2 {
 
     iframe {
         width: 100%;
+    }
+}
+
+.pizza-box {
+    width: 16px;
+}
+
+.toppings {
+    ul {
+        li {
+            margin-bottom: 10px;
+        }
     }
 }

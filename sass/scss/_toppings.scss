@@ -1,0 +1,20 @@
+.toppings {
+  @each $topping in
+    muzzarella
+    cheddar
+    aceitunas
+    palmitos
+    jamon
+    panceta
+    queso_roquefort
+    tomate
+    albahaca
+    huevo
+    morron {
+      .#{$topping} {
+          background: url(../../img/ingredient_icons/#{$topping}.png) no-repeat 0;
+          padding-left: 25px;
+          background-size: 24px;
+      }
+  }
+}

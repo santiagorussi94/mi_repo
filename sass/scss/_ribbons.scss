@@ -11,6 +11,8 @@ $ribbon-font-color: #F8463F !default;
   text-align: center;
   padding: 5px 0 5px 0;
   border-radius: 2px;
+  margin-bottom: 0;
+  z-index: 1;
 }
 
 .ribbon:before, .ribbon:after {
@@ -35,8 +37,8 @@ $ribbon-font-color: #F8463F !default;
 .ribbon span {
   padding: 5px;
   display: inline-block;
-  border-top: 1px dashed $ribbon-stitches-color;
-  border-bottom: 1px dashed $ribbon-stitches-color;
+  border-top: 2px dashed $ribbon-stitches-color;
+  border-bottom: 2px dashed $ribbon-stitches-color;
   width: 100%;
 }
 
