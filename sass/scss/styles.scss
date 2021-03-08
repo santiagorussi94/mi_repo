@@ -59,9 +59,14 @@ body {
         width: 100%;
     }
 }
+.contactCards {
+    .card {
+        min-height: 228px;
+    }
+}
 
 .pizza-box {
-    width: 16px;
+    width: 32px;
 }
 
 .toppings {
